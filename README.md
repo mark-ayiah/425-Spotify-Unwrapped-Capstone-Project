@@ -1,2 +1,3 @@
-# 425-Spotify-Unwrapped-Capstone-Project
- S&DS 425 Final Capstone Project
+# Abstract
+
+This report analyzes the factors of a song that influence  music enjoyment using Spotify listening data received through a request to the platform. The dataset includes variables such as track popularity, loudness, danceability, acousticness, and other audio features. We employ exploratory data analysis (EDA), LASSO regression, logistic regression, and ensemble models like Random Forest and XGBoost to predict whether a song was "enjoyed" or not. While the models showed only modest accuracy (with AUC values ranging from 0.55 to 0.58), the results suggest that Spotify likely leverages far more granular, proprietary data about individual users that was not made available for this analysis. The key takeaway is that companies like Spotify collect and utilize highly detailed user metrics to curate personalized recommendations, but these methods and the extent of data collection remain opaque to the public. This raises important considerations about data privacy and the effort platforms invest in understanding user behavior.
